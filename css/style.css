@@ -1,0 +1,196 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: Montserrat;
+}
+#bgimage {
+  background-image: url(https://i.imgur.com/tPTHvVW.jpg);
+  background-size: 250px;
+  repeat: repeat-x;
+}
+/* TEXT */
+p{
+  size: 1rem;
+  letter-spacing: 3px;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+#about-us {
+  font-size: 1.2rem;
+  
+  width: 80vw;
+  margin: 100px auto 0 auto;
+  border-bottom: 2px solid black;
+}
+#about-us p{
+  margin: 10px 0;
+}
+
+/*Header*/
+#navbar {
+  font-size: 1.1rem;
+  display: flex;
+
+  position: fixed;
+  justify-content: space-between;
+  align-items: center;
+  width: 80vw;
+  padding: 15px 10vw;
+  background-color: black;
+  z-index: 1;
+}
+
+header img {
+  margin: auto 0;
+  cursor: pointer;
+  width:100px;
+  height:auto;
+}
+
+
+.nav__links li {
+  display: inline;
+  padding: 0px 20px;
+}
+
+.nav__links li a {
+  text-decoration: none;
+  color: white;
+ transition: color 0.2s ease 0s;
+}
+.nav__links li a:hover {
+  color: #4CAF50;
+
+}
+
+/*------------ FOOTER ---------*/
+footer {
+background-color: black;
+}
+footer p {
+  font-size: 0.9rem;
+  color:white;
+}
+´/*  ----------------------PRODUCTS------------------ */
+
+.image-div p {
+  text-align: center;
+  margin-top: -10px;
+  
+}
+#products button {
+  display: block;
+  margin:auto;
+  margin-bottom: 15px;
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: black;
+  padding: 7px 16px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  
+}
+
+
+#products{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  
+ 
+}
+.image-div {
+  padding: 0px 20px;
+  border: 2px solid grey;
+  margin: 15px 15px 0px 15px;
+  background-color: rgb(245,245,245, 0.4)
+  
+}
+img:hover{
+  opacity: 0.85;
+  transition: 0.4s;
+}
+img {
+  width: 20vw;
+  display: flex;
+  margin: 0 auto;
+  margin-bottom: -20px;
+}
+
+@media screen and (max-width: 750px) {
+
+.contact-button{
+    display: none;
+  }
+.nav__links li {
+  
+  text-align: center;
+  padding: 0px 8px;
+    
+}
+  #about-us{
+    font-size: 1.1rem;
+    width: 70vw;
+
+  }
+  #video{
+    width: 70vw;
+    height: 40vw;
+  }
+  #products{
+    flex-direction: column;
+    width: 70vw;
+    margin: 0 auto;
+  }
+   img {
+   width:50vw;
+   display: flex;
+   margin: auto;
+  }
+}
+@media(max-width: 320px) {
+  #about-us {
+    font-size: 0.9rem;
+  }
+.nav__links li {
+  display: block;
+  text-align: center;
+  padding: 0px 8px;
+    
+}
+
+  
+  
+}
+/*--------------------------GMAIL--------------------*/
+
+#email {
+  width: 50vw;
+  height:  30px;
+  margin-top: 10px
+}
+#message {
+  width: 50vw;
+  height: 60px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#submit {
+   display: block;
+  margin:auto;
+  margin-bottom: 15px;
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: black;
+  padding: 7px 16px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+
+
+
+
